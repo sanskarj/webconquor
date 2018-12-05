@@ -1,0 +1,972 @@
+body{
+    box-sizing: border-box;
+}
+.home_section{
+    height: auto;
+    width: 100%;
+    background:linear-gradient(to right bottom, rgba(228, 220, 220, 0.752),rgba(228, 220, 220, 0.815)),url(./images/autumn-colorful-colourful-33109.jpg);
+    clip-path: polygon(0% 0%,100% 0%,100% 70%,50% 100%,0% 70%);
+    box-shadow: 0px 0px 20px black;
+    
+    
+}
+
+
+.home_page_heading{
+   
+    text-align: center;
+    font-family: cursive;
+    width: 70%;
+   
+}
+
+  
+.home-page-header{
+      margin-top: -50rem;
+      text-align: center;
+      
+      
+  }
+
+  
+  
+.image-1{
+    height: 8rem;
+    position: absolute;
+    top: 3rem;
+    left: 7rem;
+    
+    
+}
+.image-2{
+    height: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.image-row{
+    
+    height: auto;
+    
+}
+.contest-selection-row{
+    height: 40rem;
+}
+.club{
+    height: 20rem;
+    background:linear-gradient(to right bottom,#ede574,#e1f5c4);
+    margin-right: 4rem;
+    margin-left: 4rem;
+    
+    clip-path: polygon(0% 0%,100% 0%,100% 70%,50% 100%,0% 70%);
+    border-top: 2px solid #795548;
+    font-family: cursive;
+    box-shadow: 0px 0px 10px black;
+    
+}
+.scitech-gate{
+    height: 50%;
+    
+    text-align: center;
+}
+.btn-column{
+    margin-bottom: 3rem;
+}
+.btn-1{
+     
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-color: white;
+    border-bottom: 2px solid #795548;
+    transition: all .3s;
+}
+.btn-1:hover{
+    transform: translateY(-3px);
+    background-color: #795548;
+    color: white;
+    border-bottom: 2px solid white;
+}
+.club-game{
+    background: linear-gradient(to right bottom,#e9d362,#333333);
+}
+.scitech-contests{
+    height:50rem;
+    margin-top: -18rem;
+    background:linear-gradient(to right bottom, rgba(255, 249, 193, 0.829),rgba(255, 226, 171, 0.781)),url(./images/autumn-colorful-colourful-33109.jpg);
+}
+
+
+.scitech-column{
+    height: 15rem;
+    margin-top: 30rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background:linear-gradient(to right bottom,#f2994a,#f2c94c);
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom: 2px solid white;
+    margin-right: 3.5rem;
+    margin-left: 3.5rem;
+}
+.description{
+    border: 2px solid white;
+    padding: 1.5rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+.btn-2{
+    padding: 0.4rem 2rem 0.4rem 2rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-color: white;
+    transition: all .3s;
+}
+.btn-2:hover{
+     transform: translateY(-3px);
+     background-color: #fb8c00;
+     color: white;
+}
+.ongoing-scitech-contests,.upcomming-scitech-contests,.past-scitech-contests{
+    height: auto;
+    margin-top: -4rem;
+    text-align: center;
+    padding-bottom: 10rem;
+    background:linear-gradient(to right bottom, rgba(228, 220, 220, 0.952),rgba(228, 220, 220, 0.815)),url(./images/autumn-colorful-colourful-33109.jpg);
+    
+}
+.heading-row{
+    height: 10rem;
+    width: 100%;
+    margin-top: 2rem;
+    text-transform: uppercase;
+}
+.ongoing-contest-heading{
+    transition: all .3s;
+    margin-top: 3rem;
+}
+.ongoing-contest-heading:hover{
+    transform: skewY(2deg) skewX(15deg) scale(1.1);
+    text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+.ongoing-scitech-contests-row{
+    height: auto;
+    width: 100%;
+}
+.row-1{
+    width: 100%;
+}
+.contest-details{
+    height: 25rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    
+    transition: all .3s;
+    perspective: 70rem;
+    position: relative;
+}
+
+.card-1{
+    position: absolute;
+    
+    height: 100%;
+    background:linear-gradient(to right bottom,#ede574,#e1f5c4);
+    transition: all 1s;
+    backface-visibility: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom: 2px solid #795548;
+    box-shadow: 0 0 15px black;
+
+}
+.card-2{
+    position: absolute;
+    height: 100%;
+    
+    background: linear-gradient(to right bottom,#f09819,#edde5d);
+    backface-visibility: hidden;
+    transition: all 1s;
+    transform: rotateY(-180deg);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom: 2px solid #795548;
+    box-shadow: 0 0 15px black;
+}
+
+.contest-details:hover .card-1{
+    transform: rotateY(180deg)
+}
+.contest-details:hover .card-2{
+    transform: rotateY(0deg);
+}
+.club-name-head{
+    font-size: 0.8rem;
+}
+.contest-image{
+    height: 40%;
+    width: 80%;
+    
+
+}
+.contest-img{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+.btn-details,.reg-button{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-color: white;
+    border-bottom: 2px solid #f9a825;
+    transition: all .3s;
+}
+
+.btn-details:active,.reg-button:active{
+    transform: translateY(3px);
+}
+.btn-details{
+    width: 10rem;
+    height: 3rem;
+}
+.reg-button{
+    width: 12rem;
+    height: 3rem;
+}
+.card-1-upcomming{
+    background: linear-gradient(to right bottom,#f09819,#edde5d);
+}
+
+.past-scitech-contests{
+    background:linear-gradient(to right bottom, rgba(255, 249, 193, 0.829),rgba(255, 226, 171, 0.781)),url(./images/autumn-colorful-colourful-33109.jpg);
+}
+.show-more{
+    transition: all .3s;
+}
+.show-more:hover{
+    transform: translateY(-3px);
+    background-color: #f09819;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.upcomming-cultural-contests{
+    height: auto;
+    width: 100%;
+    background:linear-gradient(to right bottom, rgba(228, 220, 220, 0.752),rgba(228, 220, 220, 0.615)),url(./images/architecture-bench-brick-161064.jpg);
+    font-family: cursive;
+    
+}
+.cultural-contest-description,.contest-introduction{
+    height: 40rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 3px 0px black;
+
+
+}
+.contest-introduction{
+    background:linear-gradient(to right bottom, rgba(228, 220, 220, 0.952),rgba(228, 220, 220, 0.815));
+    border-top-left-radius: 4rem;
+}
+.cultural-contest-description{
+    background: linear-gradient(85deg ,rgba(228, 220, 220, 0.952) 0%,rgba(228, 220, 220, 0.952) 15%,#ffd200 18%,#f7971e 100%);
+    border-top-right-radius: 4rem;
+  
+}
+.club-image-contest{
+    height: 13rem;
+    width: 15rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    outline-offset: 2rem;
+    transition: all .3s;
+    
+}
+.club-image-contest:hover{
+    transform: scale(1.5);
+    outline: 2px solid black;
+}
+.cultural-heading-container{
+    height: 10rem;
+    text-align: center;
+}
+.rules{
+    border-bottom: 2px solid black;
+}
+.heading-cultural{
+    padding-bottom: 1rem;
+    border-bottom: 2px solid black;
+}
+
+.rules-heading,.heading-cultural{
+    transition: all .3s;
+    
+}
+.rules-heading:hover,.heading-cultural:hover{
+    transform: skewY(2deg) skewX(15deg) scale(1.1);
+    text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+.contest-description-2{
+    background: linear-gradient(80deg,rgba(228, 220, 220, 0.952) 0%, rgba(228, 220, 220, 0.952) 15%, #5b86e5 18%, #36d1dc 100%);
+}
+.reg-button:hover{
+    transform: translateY(-3px);
+    background-color: #f09819;
+    color: white;
+}
+.ongoing-cultural-contests{
+    background:linear-gradient(to right bottom, rgba(228, 220, 220, 0.752),rgba(228, 220, 220, 0.615)),url(./images/architecture-bench-brick-161064.jpg);
+}
+
+.ongoing-cultural-heading{
+    height: 10rem;
+    text-align: center;
+    transform: all .3s;
+    
+}
+.ongoing-culture-contest-container{
+    width: 100%;
+}
+.ongoing-cultural-contests-column{
+    height: 40rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    border-top-left-radius: 4rem;
+    border-top-right-radius: 4rem;
+    background:linear-gradient(to right bottom,#96c93d,#00b09b);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 10px black;
+    
+}
+.ongoing-culture-contest-image{
+    transition: all .3s;
+    box-shadow: 0 0 10px black;
+    backface-visibility: hidden;
+    transform: scale(0.8);
+}
+.ongoing-culture-contest-image:hover{
+    filter: blur(3px) brightness(80%);
+    transform: scale(0.9);
+}
+.move-head{
+    text-align: center;
+    opacity: 0;
+    transition: all 1s;
+    transform: translateY(0);
+    color: white;
+}
+.ongoing-culture-contest-image:hover + .move-head{
+    transform: translateY(-5rem);
+    opacity:1;
+}
+.ongoing-culture-showmore{
+    margin-bottom: 2rem;
+}
+.past-culture-contest-card{
+    height: 25rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background: linear-gradient(to right bottom,#181818,#ba8b02);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom: 3.5px solid white;
+    box-shadow: 0 0 2rem black;
+}
+.past-culture-head{
+    height: 8rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+.past-image{
+    height: 9rem;
+    width: 9rem;
+    border-top-left-radius: 1.2rem;
+    border-top-right-radius: 1.2rem;
+    outline-offset: 2rem;
+    transition: all .3s;
+}
+.past-image:hover{
+    transform: scale(1.5);
+    outline: 2px solid white;
+}
+.past-cultural-contests{
+    background:linear-gradient(to right bottom, rgba(255, 249, 193, 0.829),rgba(255, 226, 171, 0.781)),url(./images/autumn-colorful-colourful-33109.jpg);
+    font-family: cursive;
+    color: white;
+    
+}
+.navigation__checkbox {
+    display: none; }
+  
+  .navigation__button {
+    background-color: #fff;
+    height: 4rem;
+    width: 4rem;
+    position: fixed;
+    top: 5rem;
+    right: 1.3rem;
+    border-radius: 50%;
+    z-index: 2000;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer; }
+    @media only screen and (max-width: 56.25em) {
+      .navigation__button {
+        top: 4rem;
+        right: 4rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .navigation__button {
+        top: 3rem;
+        right: 3rem; } }
+  
+  .navigation__background {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    position: fixed;
+    top: 5rem;
+    right: 1.8rem;
+    background-image: radial-gradient(#ffd200, #f7971e);
+    z-index: 1000;
+    transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1); }
+    @media only screen and (max-width: 56.25em) {
+      .navigation__background {
+        top: 4.5rem;
+        right: 4.5rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .navigation__background {
+        top: 3.5rem;
+        right: 3.5rem; } }
+  
+  .navigation__nav {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1500;
+    opacity: 0;
+    width: 0;
+    transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+  
+  .navigation__list {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    text-align: center;
+    width: 100%; }
+  
+  .navigation__item {
+    margin: 1rem; }
+  
+  .navigation__link:link, .navigation__link:visited {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding: 1rem 1rem;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
+    background-size: 220%;
+    transition: all .4s; }
+    .navigation__link:link span, .navigation__link:visited span {
+      margin-right: 1.5rem;
+      display: inline-block; }
+  
+  .navigation__link:hover, .navigation__link:active {
+    background-position: 100%;
+    color: #F7971E;
+    }
+  
+  .navigation__checkbox:checked ~ .navigation__background {
+    transform: scale(80); }
+  
+  .navigation__checkbox:checked ~ .navigation__nav {
+    opacity: 1;
+    width: 100%; }
+  
+  .navigation__icon {
+    position: relative;
+    margin-top: 2rem; }
+    .navigation__icon, .navigation__icon::before, .navigation__icon::after {
+      width: 2rem;
+      height: 2px;
+      background-color: #333;
+      display: inline-block; }
+    .navigation__icon::before, .navigation__icon::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      transition: all .2s; }
+    .navigation__icon::before {
+      top: -.8rem; }
+    .navigation__icon::after {
+      top: .8rem; }
+  
+  .navigation__button:hover .navigation__icon::before {
+    top: -1rem; }
+  
+  .navigation__button:hover .navigation__icon::after {
+    top: 1rem; }
+  
+  .navigation__checkbox:checked + .navigation__button .navigation__icon {
+    background-color: transparent; }
+  
+  .navigation__checkbox:checked + .navigation__button .navigation__icon::before {
+    top: 0;
+    transform: rotate(135deg); }
+  
+  .navigation__checkbox:checked + .navigation__button .navigation__icon::after {
+    top: 0;
+    transform: rotate(-135deg); }
+
+.logo-column{
+         height: 15rem;
+         
+}
+.games-and-sports-row{
+    width: 100%;
+}
+.games-and-sports-contests{
+    background:linear-gradient(to right bottom, rgba(255, 249, 193, 0.829),rgba(255, 226, 171, 0.781)),url(./images/autumn-colorful-colourful-33109.jpg);
+    font-family: cursive;
+}
+
+.games-and-sports-row{
+    height: 30rem;
+    
+    
+    
+    
+   
+    
+    
+}
+.message{
+    height: 18rem;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size:1.2rem;
+    background-color: white;
+    clip-path: polygon(0% 0%,100% 0%,100% 80%,50% 100%,0% 80%);
+    border-top: 2px solid #795548;
+    transition: all .4s;
+    text-align: center;
+    transform: skewY(7deg);
+    
+}
+.message:hover{
+    transform: translateY(-5px) scale(1.2);
+    
+}
+.msg{
+    font-size: 1rem;
+    margin-top: -2rem;
+}
+.message-middle{
+    margin-bottom: 2rem;
+}
+.sad-2{
+    margin-top: 2rem;
+}
+.games-head{
+    text-align: center;
+    height: 5rem;
+}
+.games-and-sports-contests-heading{
+    margin-top: 2rem;
+}
+.form__input {
+    font-size: 1.5rem;
+    font-family: inherit;
+    color: inherit;
+    padding: 1.5rem 2rem;
+    border-radius: 2px;
+    background-color: rbga(#fff, 0.5);
+    border: none;
+    border-bottom: 3px solid transparent;
+    width: 90%;
+    display: block;
+    transition: all .3s; }
+    .form__input:focus {
+        outline: none;
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+        border-bottom: 3px solid #55c57a; }
+      .form__input:focus:invalid {
+        border-bottom: 3px solid #ff7730; }
+      .form__input::-webkit-input-placeholder {
+        color: #999; }
+        .form__label {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-left: 2rem;
+            margin-top: .7rem;
+            display: block;
+            transition: all .3s; }
+          
+          .form__input:placeholder-shown + .form__label {
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-4rem); }
+.footer{
+    background: linear-gradient(to right bottom,#605c3c,#3C3B3F);
+    font-family: sans-serif;
+    color: white;
+    
+}
+.links{
+    
+    color: white;
+    padding:0.3rem 1.3rem 0.4rem 1.3rem;
+    border-bottom: 1px solid white;
+    transition: all .3s;
+    text-decoration: none;
+    
+}
+.links:hover{
+    transform: translateY(-4px);
+}
+.links-column,.subscribe-column{
+          height: 10rem;
+          margin-top: 3rem;
+          margin-bottom: 3rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+        align-items: flex-start;
+} 
+#share-buttons img {
+    width: 40px;
+    padding: 5px;
+    border: 0;
+    box-shadow: 0;
+    transition: all .3s;
+    cursor: pointer;
+    
+    }   
+#share-buttons img:hover{
+    transform: translateY(-6px);
+}
+.share-buttons-column{
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}  
+ 
+.popup,.popup-1,.popup-2,.popup-3,.popup-4{
+    display: none;
+    position: fixed;
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.submit-button{
+    cursor: pointer;
+}
+.popup-container,.popup-container-1,.popup-container-2,.popup-container-3,.popup-container-4{
+    background-color: #fefefe;
+    /* 15% from the top and centered */
+    
+    position:  absolute;
+   top: 50%;
+   left:50%;
+   transform: translateX(-50%) translateY(-50%);
+    width: 30%;
+    height: 40%;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    background-color: #795548; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;/* Could be more or less, depending on screen size */
+    border-bottom: 2px solid white;
+}
+.popup-container-2,.popup-container-3,.popup-container-4{
+    height: 75%;
+    background-color: white;
+    width: 45%;
+    border-bottom: 3px solid #795548;
+}
+.detail-paragraph{
+    width: 80%;
+}
+
+.single-registration:hover,.group-registration:hover,.single-submission:hover,.group-submission:hover{
+    transform: translateY(-4px);
+    background-color: #795548;
+}
+.close-button{
+    align-self: flex-end;
+    margin-top: -2rem;
+    margin-right: 2rem;
+}
+.arrow-2,.arrow-3,.arrow-4,.arrow-5,.arrow-6{
+    font-size: 3rem;
+    color: white;
+    cursor: pointer;
+}
+.arrow-4,.arrow-5,.arrow-6{
+    color: #795548;
+   
+}
+.contest-close-button{
+    margin-top: 1rem;
+}
+@media only screen and (max-width:1322px){
+    .scitech-contests{
+        height: 70rem;
+    }
+    .upcomming{
+        margin-top: 3rem;
+    }
+}
+@media only screen and (max-width:1133px)
+{
+    .home_page_heading{
+        left: 5%;
+        top: 3%;
+
+    }
+}
+@media only screen and (max-width:932px){
+    .home-page-header{
+        margin-left: 6rem;
+    }
+}
+@media only screen and (max-width:762px){
+    .contest-selection-row{
+        height: 80rem;
+    }
+    .home_section{
+        clip-path: polygon(0% 0%,100% 0%,100% 100%,0% 100%);
+    }
+    .scitech-contests{
+        height: 90rem;
+    }
+    .ongoing,.upcomming{
+        margin-top: 3rem;
+    }
+    .contest-details{
+        margin-bottom: 8rem;
+    }
+    .card-2{
+        transform: rotateY(0deg);
+        top:100%;
+        height: 40%;
+        border-top-left-radius: 0rem;
+        border-top-right-radius: 0rem;
+        background:linear-gradient(to right bottom,#ede574,#e1f5c4);
+        box-shadow: 0 0 15px black;
+       
+    }
+    .upcomming-card-2{
+        height: 60%;
+    }
+    .contest-details-upcomming{
+        margin-bottom: 14rem;
+    }
+    .card-1{
+        border-bottom : 0px solid #795548;
+    }
+    .ongoing-scitech-contests{
+        padding-bottom: 6rem;
+    }
+    .show-more{
+        margin-top: 4rem;
+    }
+    .contest-description-1{
+        background: linear-gradient(to right bottom ,#f7971e,#ffd200);
+    }
+    .contest-description-2{
+        background: linear-gradient(to right bottom ,#5b86e5,#36d1dc);
+    }
+    .cultural-contest-description{
+        margin-top: -5rem;
+    }
+    .cultural-contest-description,.contest-introduction{
+        margin-right: 3rem;
+        margin-left: 3rem;
+    }
+    .ongoing-cultural-contests-column{
+        margin-right: 4rem;
+        margin-left: 5rem;
+    }
+    .past-culture-contest-card{
+        margin-right: 4rem;
+        margin-left: 4rem;
+    }
+    .past-image{
+        width: 18rem;
+        height: 12rem;
+    }
+    .games-and-sports-row{
+        height: auto;
+        clip-path: polygon(0% 0%,100% 0%,100% 100%,0% 100%);
+        
+        
+    }
+    .message{
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        margin-right: 4rem;
+        margin-left: 6.3rem;
+        clip-path: polygon(0% 0%,100% 0%,100% 100%,0% 100%);
+        border-top-left-radius: 2rem;
+        border-top-right-radius: 2rem;
+        transform: skewY(0deg);
+    }
+    
+    
+
+}
+@media only screen and (max-width:755px)
+{
+    .contest-details{
+        margin-left: 2.2rem;
+    }
+    .ongoing-contest-heading{
+        margin-left: 2rem;
+    }
+    
+
+}
+@media only screen and (max-width:744px)
+{
+    .contest-introduction{
+        border-top-right-radius: 4rem;
+    }
+    .cultural-contest-description{
+        border-top-right-radius: 0rem;
+    }
+}
+@media only screen and (max-width:600px)
+{
+    .navigation__background{
+         top: 5rem;
+    }
+    .navigation__button{
+            top: 5rem;
+    }
+    .image-1{
+        left: 4rem;
+    }
+}
+@media only screen and (max-width:525px)
+{
+    .venue-parent-heading{
+        text-align: center;
+        font-size: 1rem;
+
+    }
+    .ongoing-cultural-contests-column{
+        margin-right: 2rem;
+        margin-left: 3.4rem;
+    }
+}
+@media only screen and (max-width:486px)
+{
+    .cultural-contest-description{
+        height: 70rem;
+    }
+}
+@media only screen and (max-width:400px)
+{
+    .culture-upcomming-heading{
+             margin-left: -1rem;
+    }
+    .scitech-column{
+        height: 20rem;
+        margin-top: 20rem;
+        
+    }
+    .ongoing,.upcomming{
+        margin-top: 0.1rem;
+    }
+}
+@media only screen and (max-width:360px)
+{
+    .message{
+        margin-right: 2rem;
+        margin-left: 4rem;
+    }
+}
+@media only screen and (max-width:352px)
+{
+    .past-culture-contest-card{
+        margin-right: 7rem;
+        margin-left: 7rem;
+    }
+}
+@media only screen and (max-width:325px)
+{
+    .cultural-contest-description{
+        margin-top: -3rem;
+        height: 75rem;
+    }
+}
+@media only screen and (max-width:300px)
+{
+    .ongoing-cultural-contests-column{
+        margin-right: 0.5rem;
+        margin-left: 2.5rem;
+    }
+    .scitech-gate{
+        margin-top: 2rem;
+    }
+    .btn-1{
+        margin-top: -2rem;
+    }
+    .club{
+         clip-path: polygon(0% 0%,100% 0%,100% 100%,0% 100%);
+    }
+    .scitech-column{
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+}
+
+
+
+
+
+
+
